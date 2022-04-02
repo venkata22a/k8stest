@@ -12,3 +12,6 @@ spec:
     repoURL: git@github.com:venkata22a/k8stest.git
     targetRevision: HEAD
     chart: nginx
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
