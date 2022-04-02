@@ -16,3 +16,4 @@ spec:
     syncOptions:
     - CreateNamespace=true
     f1
+    f2
