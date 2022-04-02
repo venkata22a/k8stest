@@ -10,7 +10,7 @@ spec:
     namespace: nginx
   source:
     repoURL: git@github.com:venkata22a/k8stest.git
-    targetRevision: HEAD
+    targetRevision: main
     chart: nginx
   syncPolicy:
     syncOptions:
